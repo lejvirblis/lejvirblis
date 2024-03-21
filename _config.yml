@@ -5,6 +5,20 @@
 # Name of the theme
 theme: jekyll-theme-skinny-bones
 
+# Jekyll configuration
+
+sass:
+  sass_dir: _sass
+  style: compressed
+permalink: /:categories/:title/
+kramdown:
+  toc_levels: 1..2
+highlighter: rouge
+plugins:
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+
 # Name of your site (displayed in the header)
 name: Lelia
 
